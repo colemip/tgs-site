@@ -867,8 +867,7 @@
     	}
 
 	#header-wrapper
-	{
-		background: url('../images/banner.jpg') center center;
+	{		
 		background-size: cover;
 	}
 	
@@ -1043,6 +1042,16 @@
 
 	#logo
 	{
+		background-image: url('../images/logo.png');
+		position: absolute;
+		height: 20em;
+		top: 30%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: -0.5em;
+		background-position: center center;
+		background-repeat: no-repeat;
 	}
 	
 		#logo h1
