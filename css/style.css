@@ -1045,7 +1045,7 @@
 		background-image: url('../images/logo.png');
 		position: absolute;
 		height: 20em;
-		top: 30%;
+		top: 10%;
 		left: 0;
 		width: 100%;
 		text-align: center;
@@ -1067,6 +1067,25 @@
 			color: rgba(255,255,255,0.5);
 			text-transform: uppercase;
 		}
+		
+
+/*********************************************************************************/
+/* IGDA Logo                                                                          */
+/*********************************************************************************/
+
+	#igda-logo
+	{
+		background-image: url('../images/igda-logo-black.png');
+		position: absolute;
+		height: 10em;
+		top: 65%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		margin-top: -0.5em;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
 
 /*********************************************************************************/
 /* Intro                                                                         */
