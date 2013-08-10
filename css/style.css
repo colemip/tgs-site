@@ -1074,11 +1074,10 @@
 /*********************************************************************************/
 
 	#igda-logo
-	{
-		background-image: url('../images/igda-logo-black.png');
+	{		
 		position: absolute;
 		height: 10em;
-		top: 65%;
+		top: 67%;
 		left: 0;
 		width: 100%;
 		text-align: center;
