@@ -283,6 +283,12 @@
 			font-weight: 700;
 		}
 		
+		header.style1 h2 a
+		{
+			color: inherit;
+			text-decoration: underline;
+		}
+		
 		header.style1 .byline
 		{
 			color: #b1b4b9;
