@@ -23,3 +23,7 @@ Route::get('about', function() {
 Route::get('submit', function() {
 	return 'Submit';
 });
+
+Route::get('2014', function() {
+	return 'Coming Soon!';
+});
