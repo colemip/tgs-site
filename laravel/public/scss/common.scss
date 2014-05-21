@@ -3,17 +3,25 @@
 } 
 
 body {
-    @include border-debug();
+    // @include border-debug();
     background: #ffffff;
     width: 1024px;
     margin: 0 auto;
     text-align: center;
 }
 
-nav ul { 
-    list-style-type: none;    
+nav {
+    width: 100%;
+    
+    ul { 
+        list-style-type: none;
+    }    
     
     li {
         display: inline;
+        font-family: source-sans-pro, helvetica, arial, sans-serif;
+        font-weight: bold;
+        color: #4867D6;
+        width: 20%;
     }
 }

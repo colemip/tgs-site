@@ -1,4 +1,5 @@
-body { border: solid 1px #ff0000; background: #ffffff; width: 1024px; margin: 0 auto; text-align: center; }
+body { background: #ffffff; width: 1024px; margin: 0 auto; text-align: center; }
 
+nav { width: 100%; }
 nav ul { list-style-type: none; }
-nav ul li { display: inline; }
+nav li { display: inline; font-family: source-sans-pro, helvetica, arial, sans-serif; font-weight: bold; color: #4867D6; width: 20%; }

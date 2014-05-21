@@ -9,9 +9,9 @@
 	<header>
 		<nav>
 			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Submit</li>
+				<li>HOME</li>
+				<li>ABOUT</li>
+				<li>SUBMIT</li>
 			</ul>
 		</nav>
 	</header>
