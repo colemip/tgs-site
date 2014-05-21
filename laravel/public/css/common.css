@@ -1,0 +1,4 @@
+body { border: solid 1px #ff0000; background: #ffffff; width: 1024px; margin: 0 auto; text-align: center; }
+
+nav ul { list-style-type: none; }
+nav ul li { display: inline; }

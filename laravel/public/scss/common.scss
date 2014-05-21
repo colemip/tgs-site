@@ -1,0 +1,19 @@
+@mixin border-debug() {
+    border: solid 1px #ff0000;
+} 
+
+body {
+    @include border-debug();
+    background: #ffffff;
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul { 
+    list-style-type: none;    
+    
+    li {
+        display: inline;
+    }
+}
