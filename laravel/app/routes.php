@@ -27,7 +27,7 @@ Route::get('about', function() {
 });
 
 Route::get('submit', function() {
-	return 'Submit';
+	return View::make('submit');
 });
 
 Route::get('2014', function() {
