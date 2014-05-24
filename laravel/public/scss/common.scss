@@ -29,21 +29,31 @@ nav#tgs-main-nav {
 
 main {
     article {
-        .article-container {
-            @include border-debug();
+        .article-wrapper {
+            // @include border-debug();
             max-width: 1024px;
+            width: 100%;
             text-align: center;
             margin: 0 auto;
+            padding: 3.0em 0 5.0em 0;            
+        }
+        
+        &#tgs-intro {
+            background-color: #2F3484;
+            color: #e9e4e5;                
         }
         
         &#tgs-timeline {            
-            background-color: #333;
+            background-color: #E20048;
             color: #e9e4e5;
-            width: 100%;
-            padding: 3.0em 0 5.0em 0;
         }
     }
     
     
+}
+
+footer {
+    background-color: #333;
+    color: #e9e4e5;
 }
 

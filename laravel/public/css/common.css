@@ -4,5 +4,8 @@ nav#tgs-main-nav { width: 100%; }
 nav#tgs-main-nav ul { list-style-type: none; padding: 0; }
 nav#tgs-main-nav li { display: inline; font-family: source-sans-pro, helvetica, arial, sans-serif; font-weight: bold; color: #4867D6; width: 20%; }
 
-main article .article-container { border: solid 1px #ff0000; max-width: 1024px; text-align: center; margin: 0 auto; }
-main article#tgs-timeline { background-color: #333; color: #e9e4e5; width: 100%; padding: 3.0em 0 5.0em 0; }
+main article .article-wrapper { max-width: 1024px; width: 100%; text-align: center; margin: 0 auto; padding: 3.0em 0 5.0em 0; }
+main article#tgs-intro { background-color: #2F3484; color: #e9e4e5; }
+main article#tgs-timeline { background-color: #E20048; color: #e9e4e5; }
+
+footer { background-color: #333; color: #e9e4e5; }

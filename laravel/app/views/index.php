@@ -16,13 +16,19 @@
         </nav>
     </header>
 	<main>
-	    <article id='tgs-intro'></article>
+	    <article id='tgs-intro'>
+	        <div class='article-wrapper'>
+               Submissions will be accepted starting <?php echo $submitDate; ?>!
+            </div>
+	    </article>
 	    <article id='tgs-timeline'>
-	        <div class='article-container'>
+	        <div class='article-wrapper'>
 	           Submissions will be accepted starting <?php echo $submitDate; ?>!
 	        </div>
 	    </article>
 	</main>
-	<footer></footer>
+	<footer>
+	    FOOTER STUFF
+	</footer>
 </body>
 </html>
