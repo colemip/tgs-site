@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id='tgs_main_nav'>
             <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>

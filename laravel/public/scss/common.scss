@@ -10,11 +10,12 @@ body {
     text-align: center;
 }
 
-nav {
+nav#tgs_main_nav {
     width: 100%;
     
     ul { 
         list-style-type: none;
+        padding: 0;
     }    
     
     li {

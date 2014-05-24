@@ -16,7 +16,10 @@
 			</ul>
 		</nav>
 	</header>
-	<main></main>
+	<main>
+	    <article id='tgs-intro'></article>
+	    <article id='tgs-timeline'></article>
+	</main>
 	<footer></footer>
 </body>
 </html>
