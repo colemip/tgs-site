@@ -15,11 +15,10 @@
             </ul>
         </nav>
     </header>
-    <main>
-        Submissions will be accepted starting <?php echo $submitDate; ?>!
-        
-        
-    </main>
-    <footer></footer>
+	<main>
+	    <article id='tgs_intro'></article>
+	    <article id='tgs_timeline'></article>
+	</main>
+	<footer></footer>
 </body>
 </html>
