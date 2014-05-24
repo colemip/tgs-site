@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <nav id='tgs_main_nav'>
+        <nav id='tgs-main-nav'>
             <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>
@@ -16,7 +16,7 @@
         </nav>
     </header>
     <main>
-        Submissions will be accepted starting <?php echo $submitDate; ?>.
+        Submissions will be accepted starting <?php echo $submitDate; ?>!
         
         
     </main>
