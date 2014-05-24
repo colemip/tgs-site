@@ -7,7 +7,8 @@
 </head>
 <body>
     <header>
-        <nav id='tgs-main-nav'>
+        <img id='logo' src='images/logo.png' />
+        <nav id='tgs-main-nav' class='hide'>
             <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>
@@ -18,16 +19,16 @@
 	<main>
 	    <article id='tgs-intro'>
 	        <div class='article-wrapper'>
-               Submissions will be accepted starting <?php echo $submitDate; ?>!
+               Submissions will be accepted starting <?php echo $submitDate; ?>.<br /> Check back here for more info soon!
             </div>
 	    </article>
-	    <article id='tgs-timeline'>
+	    <article id='tgs-timeline' class='hide'>
 	        <div class='article-wrapper'>
 	           Submissions will be accepted starting <?php echo $submitDate; ?>!
 	        </div>
 	    </article>
 	</main>
-	<footer>
+	<footer class='hide'>
 	    FOOTER STUFF
 	</footer>
 </body>
