@@ -16,8 +16,8 @@
         </nav>
     </header>
 	<main>
-	    <article id='tgs_intro'></article>
-	    <article id='tgs_timeline'></article>
+	    <article id='tgs-intro'></article>
+	    <article id='tgs-timeline'></article>
 	</main>
 	<footer></footer>
 </body>
