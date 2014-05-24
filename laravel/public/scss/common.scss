@@ -1,5 +1,9 @@
 @mixin border-debug() {
     border: solid 1px #ff0000;
+}
+
+@mixin section-padding() {
+    padding: 3.0em 0 5.0em 0;
 } 
 
 body {
@@ -22,20 +26,24 @@ nav#tgs-main-nav {
         display: inline;
         font-family: source-sans-pro, helvetica, arial, sans-serif;
         font-weight: bold;
-        color: #4867D6;
+        background: #666;
+        color: #ddd;
         width: 20%;
+        padding: 0.5em 1.0em 0.5em 1.0em;        
     }
 }
 
 main {
+    width: 100%;
+    
     article {
         .article-wrapper {
             // @include border-debug();
             max-width: 1024px;
             width: 100%;
             text-align: center;
-            margin: 0 auto;
-            padding: 3.0em 0 5.0em 0;            
+            margin: 0 auto;   
+            @include section-padding();                    
         }
         
         &#tgs-intro {
@@ -53,6 +61,7 @@ main {
 }
 
 footer {
+    @include section-padding();
     background-color: #333;
     color: #e9e4e5;
 }
