@@ -18,7 +18,8 @@
 
 Route::get('/', function()
 {
-	return View::make('index');
+	$view = View::make('index')->with('submitDate', "June 2, 2014");
+    return $view;
 });
 
 

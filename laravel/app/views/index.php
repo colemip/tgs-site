@@ -17,7 +17,11 @@
     </header>
 	<main>
 	    <article id='tgs-intro'></article>
-	    <article id='tgs-timeline'></article>
+	    <article id='tgs-timeline'>
+	        <div class='article-container'>
+	           Submissions will be accepted starting <?php echo $submitDate; ?>!
+	        </div>
+	    </article>
 	</main>
 	<footer></footer>
 </body>
