@@ -16,7 +16,7 @@
         </nav>
     </header>
     <main>
-        
+        Submissions will be accepted starting <?php echo $submitDate; ?>.
         
         
     </main>

@@ -7,6 +7,7 @@
 </head>
 <body>
 	<header>
+	    <?php //echo $header; ?>
 		<nav>
 			<ul>
 				<li>HOME</li>
