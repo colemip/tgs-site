@@ -49,7 +49,7 @@ nav#tgs-main-nav {
         width: 20%;
         padding: 0.5em 1.0em 0.5em 1.0em;
         
-        a {
+        a:link, a:hover, a:visited, a:active {
             @include reset-link();
         }        
     }

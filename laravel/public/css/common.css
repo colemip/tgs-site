@@ -5,7 +5,7 @@ body { background: #ffffff; margin: 0 auto; text-align: center; font-family: 'Lo
 nav#tgs-main-nav { width: 100%; }
 nav#tgs-main-nav ul { list-style-type: none; padding: 0; }
 nav#tgs-main-nav li { display: inline; font-weight: bold; background: #666; color: #ddd; width: 20%; padding: 0.5em 1.0em 0.5em 1.0em; }
-nav#tgs-main-nav li a { text-decoration: none; color: inherit; }
+nav#tgs-main-nav li a:link, nav#tgs-main-nav li a:hover, nav#tgs-main-nav li a:visited, nav#tgs-main-nav li a:active { text-decoration: none; color: inherit; }
 
 main { width: 100%; }
 main article .article-wrapper { max-width: 1024px; width: 100%; text-align: center; margin: 0 auto; padding: 3.0em 0 5.0em 0; }
