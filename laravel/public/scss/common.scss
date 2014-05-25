@@ -20,6 +20,8 @@
     color: inherit;    
 }
 
+// ===============================================
+
 body {
     // @include border-debug();
     background: #ffffff;
@@ -59,6 +61,8 @@ main {
     width: 100%;
     
     article {
+        font-weight: bold;
+        
         .article-wrapper {
             // @include border-debug();
             max-width: 1024px;
@@ -74,7 +78,7 @@ main {
         }
         
         &#tgs-timeline {            
-            background-color: #E20048;
+            background-color: #a01010;
             color: #e9e4e5;
         }
     }
@@ -86,5 +90,6 @@ footer {
     @include section-padding();
     background-color: #333;
     color: #e9e4e5;
+    font-size: 0.8em;
 }
 

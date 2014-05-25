@@ -8,8 +8,9 @@ nav#tgs-main-nav li { display: inline; font-weight: bold; background: #333; colo
 nav#tgs-main-nav li a:link, nav#tgs-main-nav li a:hover, nav#tgs-main-nav li a:visited, nav#tgs-main-nav li a:active { text-decoration: none; color: inherit; }
 
 main { width: 100%; }
+main article { font-weight: bold; }
 main article .article-wrapper { max-width: 1024px; width: 100%; text-align: center; margin: 0 auto; padding: 3.0em 0 5.0em 0; }
 main article#tgs-intro { background-color: #2F3484; color: #e9e4e5; }
-main article#tgs-timeline { background-color: #E20048; color: #e9e4e5; }
+main article#tgs-timeline { background-color: #a01010; color: #e9e4e5; }
 
-footer { padding: 3.0em 0 5.0em 0; background-color: #333; color: #e9e4e5; }
+footer { padding: 3.0em 0 5.0em 0; background-color: #333; color: #e9e4e5; font-size: 0.8em; }
