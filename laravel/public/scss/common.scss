@@ -64,26 +64,27 @@ main {
         font-weight: bold;
         
         .article-wrapper {
-            // @include border-debug();
+            @include section-padding();
             max-width: 1024px;
             width: 50%;
             text-align: center;
             margin: 0 auto;   
-            @include section-padding();                    
+            color: #e9e4e5;
+                                
         }
         
         &#tgs-intro {
-            background-color: #2F3484;
-            color: #e9e4e5;                
+            background-color: #27137c;                
         }
         
         &#tgs-timeline {            
-            background-color: #a01010;
-            color: #e9e4e5;
+            background-color: #8e0b60;            
+        }
+        
+        &#tgs-judges {
+            background-color: #123308;
         }
     }
-    
-    
 }
 
 footer {
