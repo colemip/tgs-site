@@ -10,12 +10,23 @@
     display: none;
 }
 
+@mixin font-pretty-basic() {
+    // font-family: source-sans-pro, helvetica, arial, sans-serif;
+    font-family: 'Lora', serif;
+}
+
+@mixin reset-link() {
+    text-decoration: none;
+    color: inherit;    
+}
+
 body {
     // @include border-debug();
     background: #ffffff;
     // width: 1024px;
     margin: 0 auto;
     text-align: center;
+    @include font-pretty-basic();
 }
 
 .hide {
@@ -31,13 +42,16 @@ nav#tgs-main-nav {
     }    
     
     li {
-        display: inline;
-        font-family: source-sans-pro, helvetica, arial, sans-serif;
+        display: inline;        
         font-weight: bold;
         background: #666;
         color: #ddd;
         width: 20%;
-        padding: 0.5em 1.0em 0.5em 1.0em;        
+        padding: 0.5em 1.0em 0.5em 1.0em;
+        
+        a {
+            @include reset-link();
+        }        
     }
 }
 
