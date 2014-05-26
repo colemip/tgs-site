@@ -15,3 +15,6 @@ main article#tgs-judges { background-color: #b3bfef; color: #333; }
 main article .article-wrapper { padding: 3.0em 0 5.0em 0; width: 50%; text-align: center; margin: 0 auto; }
 
 footer { padding: 3.0em 0 5.0em 0; background-color: #333; color: #e9e4e5; font-size: 0.8em; }
+
+@media only screen and (max-width: 1024px) { body { font-size: 2.0em; }
+  body article .article-wrapper { width: 90%; } }
