@@ -16,6 +16,8 @@ class CreateUsers extends Migration {
             $table->increments('id');
             $table->string('first_name');
             $table->string('last_name');
+            $table->string('username');
+            $table->string('password');
             $table->date('date_of_birth');            
             $table->timestamps();
         });
@@ -33,4 +35,3 @@ class CreateUsers extends Migration {
 
 }
 
-?>
