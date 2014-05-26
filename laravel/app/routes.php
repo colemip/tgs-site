@@ -29,6 +29,7 @@ Route::get('about', function() {
 
 Route::get('submit', function() {    
 	$view = View::make('submit')->with('submitDate', "June 2, 2014");
+    // $view->with('user', User::find(1));
     return $view;
 });
 
