@@ -8,7 +8,14 @@
     </head>
     <body>
         <header>
-            @yield('header')
+            <img id='logo' src='images/logo.png' />
+            <nav id='tgs-main-nav' class=''>
+                <ul>
+                    <li><a href='index'>HOME</a></li>
+                    <li><a href='about'>ABOUT</a></li>
+                    <li><a href='submit'>SUBMIT</a></li>
+                </ul>
+            </nav>
         </header>
         
         <main>
