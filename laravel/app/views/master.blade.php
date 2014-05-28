@@ -3,7 +3,8 @@
     <head>
         <meta charset='UTF-8'>
         <title>Triangle Game Showcase | SPARKcon 2014 | Raleigh, NC</title>     
-        <link rel="stylesheet" href="{{asset('bootstrap.min.css')}}">   
+        <link rel="stylesheet" href="{{asset('bootstrap.min.css')}}">
+        <link rel="stylesheet" href="css/common.css">   
     </head>
     <body>
         <header>
