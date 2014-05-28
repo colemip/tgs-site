@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang='en'>
     <head>
         <meta charset='UTF-8'>
@@ -23,7 +22,7 @@
         </main>
         
         <footer class=''>
-            @yield('footer')
+            &copy; 2014 Triangle Game Showcase
         </footer>
     </body>                
 </html>
