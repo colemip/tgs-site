@@ -10,7 +10,7 @@ nav#tgs-main-nav li a:link, nav#tgs-main-nav li a:hover, nav#tgs-main-nav li a:v
 main { width: 100%; }
 main article { font-weight: bold; color: #e9e4e5; }
 main article#tgs-intro { background-color: #b3bfef; color: #333; }
-main article#tgs-timeline { background-color: #F5F5F5; color: #808bb7; }
+main article#tgs-timeline { background-color: #F5F5F5; color: #7687cc; }
 main article#tgs-judges { background-color: #b3bfef; color: #333; }
 main article .article-wrapper { padding: 3.0em 0 5.0em 0; width: 50%; text-align: center; margin: 0 auto; }
 
