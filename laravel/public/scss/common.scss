@@ -36,7 +36,10 @@ body {
 }
 
 header {
-    // background-color: #27137c;
+    img#logo {
+        max-width: 70%
+        // width: 50%;
+    }
 }
 
 nav#tgs-main-nav {
