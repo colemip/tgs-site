@@ -20,3 +20,5 @@ footer { padding: 3.0em 0 5.0em 0; background-color: #333; color: #e9e4e5; font-
 
 @media only screen and (max-width: 1024px) { body { font-size: 2.0em; }
   body article .article-wrapper { width: 90%; } }
+@media only screen and (max-width: 600px) { body { font-size: 2.0em; }
+  body nav { font-size: 0.6em; } }

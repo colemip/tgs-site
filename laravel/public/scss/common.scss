@@ -114,6 +114,17 @@ footer {
             }
         }
     }    
+   
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 2.0em;
+        
+        nav {
+            font-size: 0.6em;
+        }
+    }    
     
     
 }
