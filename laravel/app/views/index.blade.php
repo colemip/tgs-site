@@ -9,7 +9,13 @@
     </article>
     <article id='tgs-timeline' class=''>
         <div class='article-wrapper'>
-           Submissions will be accepted starting <?php echo $submitDate; ?>.<br /> Check back here for more info soon!
+           <a  href='https://docs.google.com/forms/d/1ioy59s0k8JAJ67640JHa8Pdysrny0Lnypk7gMTwdoG8/viewform?usp=send_form' target='_blank'>Complete this form</a> 
+           to express your interest in submitting to the showcase.
+           <br /><br /> 
+           A separate form for submitting your game will be available
+           in the coming weeks.
+           <!-- <br /><br /> -->
+           <!-- If you have any other questions, feel free to email <a id='ian' class='hide-email'>Ian</a> or <a id='rogelio' class='hide-email'>Rogelio</a>.  -->
         </div>
     </article>
     <article id='tgs-judges'>

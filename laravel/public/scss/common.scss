@@ -73,6 +73,15 @@ main {
         color: #e9e4e5;
         font-size: 1.2em;
         
+        a:link, a:visited {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
         &#tgs-intro {
             background-color: #b3bfef;    
             color: #333;            

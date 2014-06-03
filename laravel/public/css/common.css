@@ -11,6 +11,8 @@ nav#tgs-main-nav li a:link, nav#tgs-main-nav li a:hover, nav#tgs-main-nav li a:v
 
 main { width: 100%; }
 main article { font-weight: bold; color: #e9e4e5; font-size: 1.2em; }
+main article a:link, main article a:visited { color: #333; text-decoration: none; }
+main article a:hover { text-decoration: underline; }
 main article#tgs-intro { background-color: #b3bfef; color: #333; }
 main article#tgs-timeline { background-color: #F5F5F5; color: #7687cc; }
 main article#tgs-judges { display: none; background-color: #b3bfef; color: #333; }
