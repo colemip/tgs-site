@@ -83,8 +83,12 @@ main {
         }
         
         &#tgs-intro {
-            background-color: #b3bfef;    
-            color: #333;            
+            background-color: #b3bfef;
+            color: #333;
+            
+            a {
+               color: #4c66a4;
+            }
         }
         
         &#tgs-timeline {            
